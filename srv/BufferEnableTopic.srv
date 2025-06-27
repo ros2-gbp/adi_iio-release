@@ -1,0 +1,6 @@
+string device_path
+string topic_name
+float64 loop_rate 1.0
+---
+bool success
+string message
