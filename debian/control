@@ -1,0 +1,12 @@
+Source: ros-humble-adi-iio
+Section: misc
+Priority: optional
+Maintainer: Analog Devices <adrian.suciu@analog.com>
+Build-Depends: debhelper (>= 9.0.0), libiio-dev, python3-scipy <!nocheck>, ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-ros <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ament-pep257 <!nocheck>, ros-humble-launch <!nocheck>, ros-humble-launch-pytest <!nocheck>, ros-humble-launch-ros <!nocheck>, ros-humble-launch-testing <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-rclcpp, ros-humble-rclpy <!nocheck>, ros-humble-rosidl-default-generators, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-std-msgs, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: https://analogdevicesinc.github.io/iio_ros2/
+Standards-Version: 3.9.2
+
+Package: ros-humble-adi-iio
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libiio-dev, ros-humble-rclcpp, ros-humble-ros2launch, ros-humble-rosidl-default-runtime, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: ROS package to interface with IIO devices
