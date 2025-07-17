@@ -2,7 +2,7 @@
 Changelog for package adi_iio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.1 (2025-07-11)
+1.0.1 (2025-07-17)
 ------------------
 * Enhanced hardware testing workflow with environment variable controls.
 
